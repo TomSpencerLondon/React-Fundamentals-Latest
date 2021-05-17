@@ -19,5 +19,11 @@
 
 <body>
   <div id="root"></div>
-
+  <script type="module">
+    const rootElement = document.getElementById('root')
+    const element = document.createElement('div')
+    element.textContent = 'Hello There!'
+    element.className = 'hello'
+    rootElement.append(element)
+  </script>
 </body>
